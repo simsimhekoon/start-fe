@@ -10,9 +10,6 @@ var profile = {
 };
 
 
-
-
-
 function log(str){
     console.log(str);
 }
@@ -20,6 +17,7 @@ log(age);
 log(TEST);
 log(month);
 log(profile);
+
 
 
 
