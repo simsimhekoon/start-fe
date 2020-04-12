@@ -1,0 +1,37 @@
+.main{
+    height : 100%;
+    width : 100%;
+    display : flex;
+    justify-content : space-around;
+}
+
+.contents{
+    width : 200px;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    border : 2px solid green;
+}
+
+#wrap, #wrap2, #wrap3{
+    margin : 5px;
+    width : 120px;
+    height : 90px;
+    border : 2px solid black;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+#String, #String2, #String3{
+    margin : 2px;
+    text-align : center;
+}
+
+.button{
+    margin-top : 20px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
