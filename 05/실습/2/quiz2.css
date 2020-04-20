@@ -1,0 +1,24 @@
+span{
+    display : block;
+    float : left;
+    width : 100px;
+    height : 100px;
+}
+
+#board{
+    width : 400px;
+    border : 5px solid #ddd;
+    height : 400px;
+}
+
+.black{
+    background-color: #000;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.select{
+    background-color: red;
+}
