@@ -16,12 +16,14 @@ function getRand() {
   rand = rand - 100;
 
   var inc = setInterval(function () {
+    btn.disabled = true; //버튼 비활성화
     box.innerHTML = rand;
     rand++;
   }, increase);
 
   setTimeout(function () {
     clearInterval(inc);
+    btn.disabled = false; //버튼 활성화
   }, incTime);
 }
 
