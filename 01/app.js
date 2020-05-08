@@ -2,24 +2,20 @@ var age = 20;
 
 var TEST = true;
 
-var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,11, 12];
+var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 var profile = {
-    name: "gildong",
-    age: 25
+  name: 'gildong',
+  age: 25,
 };
 
-
-function log(str){
-    console.log(str);
+function log(str) {
+  console.log(str);
 }
 log(age);
 log(TEST);
 log(month);
 log(profile);
-
-
-
 
 /* 아래는 실습내용입니다.
 console.log('app.js');
